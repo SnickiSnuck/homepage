@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friendly rickroll</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/icons/rickroll.gif">
+</head>
+<body>
+  <div class="navbar">
+    <a class="navbutton" href="index.html">Homepage</a>
+    <a class="navbutton" href="credits.html">Credits</a>
+    <a class="navbutton" href="updates.html">Updates</a>
+    <audio class="audioplayer" src="" controls autoplay></audio>
+  </div>
+
+  <br><br><div class="maincard">
+    <h1 class="cenh1">You've chosen to be rickrolled.</h1>
+    <p class="cenp">What in your life motivated you to make such a decision?</p>
+    <br><video src="video/totally-not-a-rickroll.mp4" autoplay loop style="width: 60%;"></video>
+    <br><br><br><a href="index.html" draggable="false"><button class="pagebutton"><img class="imgicon" src="img/icons/home.png" alt="home.png" draggable="false"><br>Back to Homepage</button></a>
+  </div>
+
+  <script>
+    document.querySelectorAll('video').forEach(function(audioElement) {
+        audioElement.volume = 0.25;
+      });
+    ;
+  </script>
+
+</body>
+</html>

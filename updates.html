@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SnickiSnuck's homepage</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/icons/tigga-icon.png">
+</head>
+<body>
+  <div class="navbar">
+    <a class="navbutton" href="index.html">Homepage</a>
+    <a class="navbutton" href="credits.html">Credits</a>
+    <a class="navbutton" href="updates.html"><u>Updates</u></a>
+    <audio class="audioplayer" src="audio/credits.mp3" controls autoplay loop></audio>
+  </div>
+
+  <br><br><div class="maincard">
+    <h1 class="cenh1">Updates</h1><br>
+    <h2>0.1.1 - 20.03.25</h2><p class="cenp">- page buttons aren't draggable anymore <br>- changed <a href="tigga.html" style="color: lightskyblue;">Tigga's cave</a> background <br>- "no" button in <a href="friendly-rickroll.html" style="color: lightskyblue;">friendly rickroll</a> redirects to <a href="ok.html" style="color: lightskyblue;">ok.html</a></p><br><hr>
+    <h2>0.1.0 - 19.03.25</h2><p class="cenp">- added volume slider on top right <br>- new updates page <br>- new credits page</p><br><hr>
+    <h2>0.0.2 - 19.03.25</h2><p class="cenp">- added <a href="friendly-rickroll.html" style="color: lightskyblue;">friendly rickroll</a> <br>- Tigga moved to a cave</p><br><hr>
+    <h2>0.0.1 - 19.03.25</h2><p class="cenp">- first version <br>-you can <a href="tigga.html" style="color: lightskyblue;">pet Tigga</a></p>
+  </div>
+
+  <script>
+    document.querySelectorAll('.audioplayer').forEach(function(audioElement) {
+        audioElement.volume = 0.1;
+      });
+    ;
+  </script>
+
+</body>
+</html>

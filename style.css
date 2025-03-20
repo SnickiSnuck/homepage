@@ -1,0 +1,111 @@
+body {
+  font-family: Comic Sans MS;
+  color: white;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+  background: url(img/chess.png) no-repeat center fixed;
+  background-size: cover;
+}
+
+.navbar {
+  position: fixed;
+  top: 0; left: 0;
+  padding: 10px 0;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(114, 0, 0, 0));
+  transition: 0.2s;
+}
+
+.navbutton {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.navbutton:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+.audioplayer {
+  float: right;
+  width: 20px;
+  height: 30px;
+  border: red 2px solid;
+  border-radius: 35px;
+  margin-right: 5px;
+  transition: 0.5s;
+}
+
+.audioplayer:hover {
+  width: 300px; height: 50px;
+}
+
+.maincard{
+  background-color: rgba(0, 0, 0, 1); border: white 2px solid;
+  margin: auto; margin-bottom: 20px;
+  padding: 50px 50px;
+  width: 60%;
+  text-align: center;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.1s;
+}
+
+.cenh1{
+  text-align: center;
+  font-size: 50px;
+  margin: 10px;
+}
+
+.cenp{
+  text-align: center;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.pagebutton {
+  font-family: Comic Sans MS;
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+  color: white;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+  background: none;
+}
+
+.pagebutton:hover {
+  transform: scale(1.1);
+  color: yellow;
+  cursor: pointer;
+}
+
+.pagebutton:active {
+  transform: scale(1);
+}
+
+.imgicon {
+  width: 100px;
+  height: 100px;
+  transition: 0.1s;
+}
+
+.tigga {width: 300px; cursor: grab;}
+
+.tigga:hover {
+  transform: scale(1.05);
+}
+
+.tigga:active {transform: rotate3d(20, 0, 0, 35deg); cursor: grabbing; filter: invert();}
+
+.tiggacard{
+  background-image: url(img/tiggascave.png); background-size: cover; background-repeat: no-repeat;
+  border: white 2px solid;
+  margin: auto; margin-bottom: 20px;
+  padding: 50px 50px;
+  width: 60%;
+  text-align: center;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.1s;
+}

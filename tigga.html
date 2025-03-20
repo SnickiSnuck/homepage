@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tigga's cave</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/tiggachair.png">
+</head>
+<body>
+  <div class="navbar">
+    <a class="navbutton" href="index.html">Homepage</a>
+    <a class="navbutton" href="credits.html">Credits</a>
+    <a class="navbutton" href="updates.html">Updates</a>
+    <audio class="audioplayer" src="audio/tigga.mp3" controls autoplay loop></audio>
+  </div>
+
+  <br><br><div class="tiggacard">
+    <h1 class="cenh1">Tigga's cave</h1>
+    <p class="cenp">Why don't you pet him?</p>
+    <br><img class="tigga" src="img/tiggachair.png" alt="tigga.png" draggable="false">
+    <br><br><br><a download="" href="img/tigga.png" draggable="false"><button class="pagebutton"><img class="imgicon" src="img/icons/download.png" alt="download.png" draggable="false"><br>Download Tigga</button></a>
+    <a href="index.html" draggable="false"><button class="pagebutton"><img class="imgicon" src="img/icons/home.png" alt="home.png" draggable="false"><br>Back to Homepage</button></a>
+
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const ahh = new Audio('audio/ahh.mp3');
+      document.querySelectorAll('.tigga').forEach(function(element) {
+        element.addEventListener('click', function() {
+          ahh.play();
+        });
+      });
+    });
+
+    document.querySelectorAll('.audioplayer').forEach(function(audioElement) {
+      audioElement.volume = 0.05;
+    });
+  ;
+  </script>
+
+</body>
+</html>
