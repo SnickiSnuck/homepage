@@ -22,7 +22,6 @@ a {color: rgb(79, 155, 255); text-decoration: none;} a:hover{text-decoration: un
   text-decoration: none;
   font-size: 20px;
   cursor: pointer;
-  transition: 0.1s;
 }
 
 .navbutton:hover {text-decoration: underline; color: yellow;}
