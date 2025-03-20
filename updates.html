@@ -9,19 +9,26 @@
 </head>
 <body>
   <div class="navbar">
-    <a class="navbutton" href="index.html">Homepage</a>
-    <a class="navbutton" href="credits.html">Credits</a>
-    <a class="navbutton" href="updates.html"><u>Updates</u></a>
+    <a class="navbutton" href="./">Homepage</a>
+    <a class="navbutton" href="./credits">Credits</a>
+    <a class="navbutton" href="./updates"><u>Updates</u></a>
     <audio class="audioplayer" src="audio/credits.mp3" controls autoplay loop></audio>
   </div>
 
   <br><br><div class="maincard">
     <h1 class="cenh1">Updates</h1><br>
-    <h2>0.1.1 - 20.03.25</h2><p class="cenp">- page buttons aren't draggable anymore <br>- changed <a href="tigga.html" style="color: lightskyblue;">Tigga's cave</a> background <br>- "no" button in <a href="friendly-rickroll.html" style="color: lightskyblue;">friendly rickroll</a> redirects to <a href="ok.html" style="color: lightskyblue;">ok.html</a></p><br><hr>
-    <h2>0.1.0 - 19.03.25</h2><p class="cenp">- added volume slider on top right <br>- new updates page <br>- new credits page</p><br><hr>
-    <h2>0.0.2 - 19.03.25</h2><p class="cenp">- added <a href="friendly-rickroll.html" style="color: lightskyblue;">friendly rickroll</a> <br>- Tigga moved to a cave</p><br><hr>
-    <h2>0.0.1 - 19.03.25</h2><p class="cenp">- first version <br>-you can <a href="tigga.html" style="color: lightskyblue;">pet Tigga</a></p>
+      <h2>0.2.0 - 20.03.25</h2><p class="cenp">- removed the annoying ".html" thingys at the end of the url <br>- changed the color and behavior of <a href="./updates">links</a> slightly <br>- restructured the <a href="./updates">updates</a> page <br>- renamed friendly rickroll to <a href="./kind-rickroll">kind rickroll</a> <br>- optimized the website on firefox</p><br><hr>
+      <h2>0.1.1 - 20.03.25</h2><p class="cenp">- page buttons aren't draggable anymore <br>- changed <a href="./tigga" style="color: lightskyblue;">Tigga's cave</a> background <br>- "no" button in <a href="./friendly-rickroll" style="color: lightskyblue;">friendly rickroll</a> redirects to <a href="./ok" style="color: lightskyblue;">ok.html</a></p><br><hr>
+      <h2>0.1.0 - 19.03.25</h2><p class="cenp">- added volume slider on top right <br>- new updates page <br>- new credits page</p>
+    </div>
+
+  <div class="maincard">
+    <h1 class="cenh1">Alpha</h1><br>
+      <h2>0.0.2 - 19.03.25</h2><p class="cenp">- added <a href="./friendly-rickroll" style="color: lightskyblue;">friendly rickroll</a> <br>- Tigga moved to a cave</p><br><hr>
+      <h2>0.0.1 - 19.03.25</h2><p class="cenp">- first version <br>-you can <a href="./tigga" style="color: lightskyblue;">pet Tigga</a></p><br><br>
+      <a href="./" draggable="false"><button class="pagebutton"><img class="imgicon" src="img/icons/home.png" alt="home.png" draggable="false"><br>homepage</button></a>
   </div>
+  
 
   <script>
     document.querySelectorAll('.audioplayer').forEach(function(audioElement) {
